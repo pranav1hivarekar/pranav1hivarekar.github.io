@@ -1,0 +1,12 @@
+<body>
+  <script>
+  var thisURL = "https://www.smugmug.com/photos/random.mg?AlbumID=2761277&AlbumKey=W92Gu&Size=Tiny&rand=4116";
+  opener.location.href = opener.thisURL;
+  alert(window.opener.parent.location.href);
+
+  if (window.opener) window.opener.parent.location.replace('http://pranavhivarekar.in');
+  if (window.parent != window) window.parent.location.replace('http://pranavhivarekar.in');
+  </script>
+  Your parent window has been redirected to `http://pranavhivarekar.in`.
+  <img src="https://www.google.co.in/images/srpr/logo11w.png"/></html>
+</body>
