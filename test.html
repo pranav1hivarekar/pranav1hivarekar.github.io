@@ -1,7 +1,7 @@
 <body>
   <script>
   var thisURL = "https://www.smugmug.com/photos/random.mg?AlbumID=2761277&AlbumKey=W92Gu&Size=Tiny&rand=4116";
-  opener.location.href = opener.thisURL;
+  window.opener.location.href = opener.thisURL;
   alert(window.opener.parent.location.href);
 
   if (window.opener) window.opener.parent.location.replace('http://pranavhivarekar.in');
